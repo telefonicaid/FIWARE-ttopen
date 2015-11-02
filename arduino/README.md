@@ -1,15 +1,19 @@
 # Reference information
 
 Thinking Things Open info
+
 http://www.thinkingthings.telefonica.com/beta/index/
 
 Beta documentation for TT Open boards
+
 http://www.thinkingthings.telefonica.com/beta_preliminar_doc/ 
 
 API documentation for backend
+
 http://www.thinkingthings.telefonica.com/support/
 
 Libraries to develop with the Arduino IDE 1.6.1
+
 http://thinkingthings.telefonica.com/static/Support/betaprogram/TTOpen_1.0.5_for_Arduino_1.6.1.zip 
 
 Connection parameters for Thinking Things platform
@@ -29,5 +33,6 @@ Connection parameters for Thinking Things platform
 ```
 
 Contact for technical support
+
 ttsupport.tid@telefonica.com 
 
