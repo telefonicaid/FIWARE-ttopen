@@ -6,7 +6,9 @@ This repository holds examples about how to persist your Thinking Things Open se
 Then, it will show you how to access these data using FIWARE NGSI standard APIs and its multiple connectors with external tools as Freeboard or CartoDB.
 
 ### First steps on your Thinking Things Open
-If you are new with Thinking Things Open, we recommend you going first to [Thinking Things website](http://www.thinkingthings.telefonica.com/beta/index/). Also, you can find a lot of examples and tutorials at [Thinking Things Github](https://github.com/thinkingthings/Arduino)
+If you are new with Thinking Things Open, we recommend you going first to [Thinking Things website](http://www.thinkingthings.telefonica.com/beta/index/). Also, you can find a lot of examples and tutorials at [Thinking Things Github](https://github.com/thinkingthings/Arduino).
+
+Please, go to [this section](/arduino) to get some useful resources.
 
 ### What is FIWARE IoT Stack?
 [FIWARE](https://www.fiware.org/) is an open initiative aiming to create a sustainable ecosystem to grasp the opportunities that will emerge with the new wave of digitalization caused by the integration of recent Internet technologies. Based on this FIWARE technologies, and focused on IoT area, Telefonica created and [IoT Platform](http://iot.tid.es) to help Industrial Partners and Smart Cities building its IoT services. 
@@ -34,7 +36,7 @@ You will receive an email with your API and portal credentials to send data from
 Please, in case you have any trouble signing up let us know at [iot_support@tid.es](mailto:iot_support@tid.es)
 
 ### Step #2: Upload .ino sketch to Thinking Things Open
-Once you have your API credentials, get the arduino sample sketch at [/arduino] and replace line 8 with your API key.
+Once you have your API credentials, get this [.ino sample sketch](/arduino) and replace line 8 with your API key.
 
 Upload the updated sketch to your Thinking Things Open and it will send A0 and A1 PIN values to Thinking Things Cloud.
 
