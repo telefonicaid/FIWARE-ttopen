@@ -33,14 +33,19 @@ You will receive an email with your API and portal credentials to send data from
 
 Please, in case you have any trouble signing up let us know at [iot_support@tid.es](mailto:iot_support@tid.es)
 
+### Step #2: Upload arudino sketch to Thinking Things Open
+Once you have your API credentials, get the arduino sample sketch at [/arduino] and replace line 8 with your API key.
+
+Upload the updated sketch to your Thinking Things Open and it will send A0 and A1 PIN values to Thinking Things Cloud.
+
+Ideally, connect there some sensors (temperature, luminosity) to have real data there.
+
 ### Step #2: FIWARE IoT Stack Management Portal
-To check your data is correctly sent and stored, first thing is accessing the [Management Portal](http://hackathon.ttcloud.net/openbank). You can log-in using your given FIWARE user/password. In the "Entities" section (An Entity is a data object representation in FIWARE, so your Edison is represented as an Entity) you will find an Entity called "device:myTT" with a list of attributes:
-* "l": Your luminosity sensor
-* "p": Your button sensor
+To check your data is correctly sent and stored, first thing is accessing the [Management Portal](http://hackathon.ttcloud.net/openbank). You can log-in using your given FIWARE user/password. In the "Entities" section (An Entity is a data object representation in FIWARE, so your Thiking Things is represented as an Entity) you will find an Entity called "device:myTT" with a list of attributes:
+* "A0": Your A0 pin value
+* "A1": Your A1 pin value
 
 If you have connected more sensors to your ThikingThings, they will appear here with the given alias you selected in the arduino code.
-
-If you want to, you can go to "Devices" section to provision a device for your Edison. For example, you could change your Entity ID (setting "home" instead of "device:myTT" or "luminosity" instead of "l"). Check [this guide](http://fiware-iot-stack.readthedocs.org/en/latest/quickguide/index.html#step-2-see-data) for more details
 
 ### Step #3 : Drag&Drop visualizations with Freeboard
 If you just need a dashboard (like [this one](https://freeboard.io/board/0cYCHY) ) to show your sensors data in real time, you can create it using [Freeboard](https://freeboard.io) without writing a line of code. 
