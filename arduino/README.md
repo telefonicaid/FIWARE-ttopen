@@ -14,7 +14,7 @@ http://thinkingthings.telefonica.com/static/Support/betaprogram/TTOpen_1.0.5_for
 
 Connection parameters for Thinking Things platform
 
-´´´
+```
 // Production environment
 #define HOST "s1.tts01.net" 
  
@@ -26,8 +26,8 @@ Connection parameters for Thinking Things platform
 // Other connection parameters
 #define PATH "/Stack/Receive/"
 #define PORT 80
-
+```
 
 Contact for technical support
 ttsupport.tid@telefonica.com 
-´´´
+
