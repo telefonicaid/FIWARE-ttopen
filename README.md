@@ -19,10 +19,6 @@ NOTE: If you are a hacker participating in the [openbank Internet of Things Day 
 
 If you are not, [contact us](mailto:iot_support@tid.es) and we will give you the steps to get access.
 
-
-## Arduino sample for Thinking Things Open
-If you are an Arduino lover, [this .ino example](/arduino) will be straightforward for you.
-
 ## Using FIWARE IoT Stack
 You have your Thiking Things collecting data from sensors. So what?
 
