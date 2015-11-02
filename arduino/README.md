@@ -1,3 +1,5 @@
+# Reference information
+
 Thinking Things Open info
 http://www.thinkingthings.telefonica.com/beta/index/
 
@@ -12,6 +14,7 @@ http://thinkingthings.telefonica.com/static/Support/betaprogram/TTOpen_1.0.5_for
 
 Connection parameters for Thinking Things platform
 
+´´´
 // Production environment
 #define HOST "s1.tts01.net" 
  
@@ -27,4 +30,4 @@ Connection parameters for Thinking Things platform
 
 Contact for technical support
 ttsupport.tid@telefonica.com 
-
+´´´
