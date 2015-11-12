@@ -17,7 +17,7 @@
   #define PORT           8082                 // replace with your port
     
   //################ FIWARE VARIABLES ################
-  char FIWARE_APIKEY[] = "5e34b8bcc6ae8f25d3729dcf953f7eda";
+  char FIWARE_APIKEY[] = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
   char FIWARE_DEVICE[] = "myTTOpen";
   char FIWARE_SERVER[] = "hackathon.ttcloud.net";
   int FIWARE_PORT = 8082;
