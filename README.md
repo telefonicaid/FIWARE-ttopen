@@ -40,13 +40,13 @@ Ideally, connect there some sensors (temperature, luminosity) to have real data 
 
 ### Step #3: FIWARE IoT Stack Management Portal
 To check your data is correctly sent and stored, first thing is accessing the [Management Portal](http://hackathon.ttcloud.net/openbank). You can log-in using your given FIWARE user/password. In the "Entities" section (An Entity is a data object representation in FIWARE, so your Thiking Things is represented as an Entity) you will find an Entity called "device:myTT" with a list of attributes:
-* "A0": Your A0 pin value
-* "A1": Your A1 pin value
+* "S0": Your A0 pin value
+* "S1": Your A1 pin value
 
 If you have connected more sensors to your ThikingThings, they will appear here with the given alias you selected in the arduino code.
 
 ### Step #4 : Drag&Drop visualizations with Freeboard
-If you just need a dashboard (like [this one](https://freeboard.io/board/0cYCHY) ) to show your sensors data in real time, you can create it using [Freeboard](https://freeboard.io) without writing a line of code. 
+If you just need a dashboard (like [this one](https://freeboard.io/board/aTFFX3) ) to show your sensors data in real time, you can create it using [Freeboard](https://freeboard.io) without writing a line of code. 
 
 Please, read our 
 [FIWARE Orion Datasource Freedboard Tutorial](http://fiware-iot-stack.readthedocs.org/en/latest/quickguide/index.html#step-4-show-in-a-dashboard) if you have any trouble.
