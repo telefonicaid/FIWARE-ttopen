@@ -25,7 +25,7 @@ You have your Thiking Things collecting data from sensors. So what?
 Next step is connecting your applications with FIWARE IoT Stack to access your data and show your magic to the rest of the world.
 
 ### Step #1: Sign up to get your credentials
-You can get your FIWARE IoT Stack credentials at [http://signuphackathon.ttcloud.net/](http://signuphackathon.ttcloud.net/).
+You can get your FIWARE IoT Stack credentials at [http://openbank.ttcloud.net/](http://openbank.ttcloud.net).
 
 You will receive an email with your API and portal credentials to send data from your Edison and use FIWARE IoT Stack APIs on your App.
 
